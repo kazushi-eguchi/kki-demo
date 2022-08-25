@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="sale_view_order_demo_form" model="ir.ui.view">
+            <field name="name">Sale Order DEMO</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='payment_term_id']" position="after">
+                    <field name="memo" string="memo"/>
+                    <field name="demo1" string="demo1"/>
+                    <field name="demo2" string="demo2"/>
+                    <field name="demo3" string="date"/>
+                    <field name="demo4" string="datetime"/>
+                    <field name="demo5" string="demo5"/>
+                    <field name="demo6" string="demo6"/>
+                    <field name="demo7" string="demo7" widget="many2many_tags"/>
+                </xpath>
+            </field>
+        </record>
+         <record id="sale_view_order_demo_tree" model="ir.ui.view">
+            <field name="name">Sale Order DEMO tree</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_quotation_tree_with_onboarding"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='state']" position="after">
+                    <field name="memo" string="memo"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

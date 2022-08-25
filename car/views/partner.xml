@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_partner_form" model="ir.ui.view">
+        <field name="name">res.partner.form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//page[@name='internal_notes']" position="after">
+                <page string="cars">
+                    <field name="car_count" string="car"/>
+                    <group>
+                        <field name="cars" string="car"/>
+                    </group>
+                </page>
+            </xpath>
+            <div class="oe_button_box" position="inside">
+                <button name="action_open_car" class="oe_stat_button" type="object" icon="fa-handshake-o">
+                    <div class="o_stat_info">
+                        <field name="car_count" class="o_stat_value"/>
+                        <span class="o_stat_text">Lead</span>
+                    </div>
+                </button>
+            </div>
+        </field>
+    </record>
+</odoo>

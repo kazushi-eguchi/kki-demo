@@ -1,0 +1,120 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* demo
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-18 01:49+0000\n"
+"PO-Revision-Date: 2022-03-18 01:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: demo
+#: model:ir.model.fields,field_description:demo.field_sale_order__demo4
+msgid "Datetime"
+msgstr ""
+
+#. module: demo
+#: model:ir.model.fields,field_description:demo.field_sale_order__demo2
+msgid "Demo2"
+msgstr ""
+
+#. module: demo
+#: model:ir.model.fields,field_description:demo.field_sale_order__demo5
+msgid "Demo5"
+msgstr ""
+
+#. module: demo
+#: model:ir.model.fields,field_description:demo.field_sale_order__demo6
+msgid "Demo6"
+msgstr ""
+
+#. module: demo
+#: model:ir.model.fields,field_description:demo.field_sale_order__demo7
+msgid "Demo7"
+msgstr ""
+
+#. module: demo
+#: model:ir.model.fields,field_description:demo.field_sale_order__display_name
+msgid "Display Name"
+msgstr "表示名"
+
+#. module: demo
+#: model:ir.model.fields.selection,name:demo.selection__sale_order__demo5__female
+msgid "Female"
+msgstr ""
+
+#. module: demo
+#: model:ir.model.fields,field_description:demo.field_sale_order__id
+msgid "ID"
+msgstr ""
+
+#. module: demo
+#: model:ir.model.fields,field_description:demo.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "最終更新日"
+
+#. module: demo
+#: model:ir.model.fields.selection,name:demo.selection__sale_order__demo5__male
+msgid "Male"
+msgstr ""
+
+#. module: demo
+#: model:ir.model.fields.selection,name:demo.selection__sale_order__demo5__other
+msgid "Other"
+msgstr ""
+
+#. module: demo
+#: model:ir.model,name:demo.model_sale_order
+msgid "Sales Order"
+msgstr "販売オーダ"
+
+#. module: demo
+#: model:ir.model.fields,field_description:demo.field_sale_order__demo3
+#: model_terms:ir.ui.view,arch_db:demo.sale_view_order_demo_form
+msgid "date"
+msgstr ""
+
+#. module: demo
+#: model_terms:ir.ui.view,arch_db:demo.sale_view_order_demo_form
+msgid "datetime"
+msgstr ""
+
+#. module: demo
+#: model:ir.model.fields,field_description:demo.field_sale_order__demo1
+#: model_terms:ir.ui.view,arch_db:demo.sale_view_order_demo_form
+msgid "demo1"
+msgstr ""
+
+#. module: demo
+#: model_terms:ir.ui.view,arch_db:demo.sale_view_order_demo_form
+msgid "demo2"
+msgstr ""
+
+#. module: demo
+#: model_terms:ir.ui.view,arch_db:demo.sale_view_order_demo_form
+msgid "demo5"
+msgstr ""
+
+#. module: demo
+#: model_terms:ir.ui.view,arch_db:demo.sale_view_order_demo_form
+msgid "demo6"
+msgstr ""
+
+#. module: demo
+#: model_terms:ir.ui.view,arch_db:demo.sale_view_order_demo_form
+msgid "demo7"
+msgstr ""
+
+#. module: demo
+#: model:ir.model.fields,field_description:demo.field_sale_order__memo
+#: model_terms:ir.ui.view,arch_db:demo.sale_view_order_demo_form
+#: model_terms:ir.ui.view,arch_db:demo.sale_view_order_demo_tree
+msgid "memo"
+msgstr "メモ"

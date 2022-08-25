@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="size_action_window">
+            <field name="name">size window</field>
+            <field name="res_model">car.size</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Size" id="car.menu_1_size" parent="car.menu_1"
+                  action="size_action_window"/>
+
+    </data>
+</odoo>
