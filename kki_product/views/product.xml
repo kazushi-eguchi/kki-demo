@@ -49,6 +49,7 @@
                     <filter string="在庫可能品" name="product_type"
                             domain="[('type','=', 'product')]"/>
                     <separator/>
+                    
                 </xpath>
             </field>
         </record>
